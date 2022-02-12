@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display+SC:wght@900&display=swap');  
+body{
+    margin: 0%;    
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.719);
+    width: 100%;
+    top: 0%;
+    padding: 16px;
+    z-index: 5;
+    
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    font-family: 'Merriweather', serif;
+    transition: 0.5s;
+}
+nav a:hover{
+    text-shadow: 0 0px 5px rgb(16, 66, 233);
+}
+header{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/blue+constellations.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30vh 16px 0 16px;
+}
+h1{
+    color: rgba(233, 232, 232, 0.884);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+header p{
+    margin: 40px 0 40px 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+}
+header a{
+    width: 10%;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 13px 25px 13px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}   
+header a:hover{
+    box-shadow: 0 0 25px 5px rgb(16, 66, 233);
+    
+}
+.text{
+    width: 100%;
+}
+.campany{
+    padding: 40px 16px 0px 16px; 
+}
+.text img{
+    float: right;
+    width: 180px;
+    position: relative;
+    bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.team{
+    text-align: center;
+    width: 100%;
+    padding: 40px 16px 40px 16px;
+}
+.item{
+    width: 20%;
+    max-width: 300px;
+    min-width: 250px;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 12px;
+    margin: 0 20px 30px 20px ;
+}
+.photo{
+    background-image: url(../img/Frame\ 1.png);
+    width: 100%;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.item h3{
+    margin: 10px 0 10px 0;
+}
+.item a{
+    background: blue;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+.item span{
+    color: gray;
+}
+.item a:hover{
+    background: rgb(4, 4, 141);
+}
+.item2{
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 12px;
+}
+.item2 a{
+    background: blue;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+.item2 span{
+    color: gray;
+}
+.photo2{
+    background-image: url(../img/Frame\ 2.png);
+    width: 100%;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.item3 {
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 20px blue;
+    border-radius: 12px;
+}
+.photo3{
+    background-image: url(../img/Frame\ 3.png);
+    width: 100%;
+    height: 340px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.item3 span{
+    color: gray;
+}
+.item3 a{
+    background: blue;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+.slogan{
+    margin: 0 0 35px 0;
+}
+.cost{
+    background: rgb(105, 53, 155);
+    color: white;
+    padding: 40px 16px 40px 16px;
+    text-align: center;
+}
+.cost ul{
+    list-style: none;
+    padding: 10px;
+    width: 20%;
+    min-width: 270px;
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cost li{
+    border-radius: 10px;
+}
+.name{
+    background: rgb(55, 137, 245);
+    padding: 20px 0 20px 0;
+    font-size: 25px;
+
+}
+.bacik{
+    border: 2px solid rgb(55, 137, 245);
+}
+.bacik li{
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgb(55, 137, 245);
+}
+.bacik2{
+    border: 2px solid rgb(55, 137, 245);
+}
+.bacik2 li{
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgb(55, 137, 245);
+}
+.bacik3{
+    border: 2px solid rgb(55, 137, 245);
+}
+.bacik3 li{
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgb(55, 137, 245);
+}
+.cost button{
+    background: rgb(55, 137, 245);
+    padding: 10px 40px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cost button:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.contacts{
+    text-align: center;
+    padding: 40px 16px 40px 16px;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    box-shadow: 0 0 10px rgb(55, 137, 245);
+    border-radius: 10px;
+    padding: 25px 15px 25px 15px;
+}
+input{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: solid 2px rgb(55, 137, 245);
+    padding: 15px;
+    font-size: 16px;
+    max-width: 500px;
+    transition: 0.5s;
+}
+[type=submit] {
+    width: 100%;
+    max-width: 500px;
+    background: rgb(55, 137, 245);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+[type=submit]:hover{
+    background: rgb(21, 91, 182);
+}
+input:focus{
+    box-shadow: 0 0 10px rgb(55, 137, 245);
+}
+form h3{
+    font-size: 24px;
+}
+footer{
+    background: rgb(55, 137, 245);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
